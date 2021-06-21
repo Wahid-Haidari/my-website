@@ -1,25 +1,27 @@
 
 body{
-      display: flex;
-      flex-direction: column;
-      margin: 0 auto;
-      font-family: Arial;
-      }
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  font-family: Arial;
+}
 
-html { 
-  background: url(bckgrnd.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.content{
+  background-color: #b1b6bd;
+  width: 50em;
+  margin: auto;
+  height: 31em;
+  margin-top: 5em;
+  margin-bottom: 5em;
+  border-radius: 15px;
+
 }
 
 .picture{
   display: flex;
-  height: 50vh; 
-    align-items: center;
-    justify-content: center;
-    margin-top: 70px;
+  height: 40vh;   
+  justify-content: center;
+  margin-top: 1em;
 }
 
 
@@ -27,9 +29,8 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-    justify-content: center;
-
-
+  justify-content: center;
+  margin-top: 0.5em;
 }
 
 
@@ -47,5 +48,6 @@ html {
 
   width: 30px;
   height: 30px;
-  margin: 50px;
+  margin: 3em;
+  margin-top: 1em;
 }

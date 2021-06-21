@@ -1,0 +1,9 @@
+p {
+	margin: auto;
+	padding: 2em;
+	margin-top: 5em;
+	width: 50em;
+	background-color: #b1b6bd;
+	line-height: 2.5em;
+	border-radius: 15px;
+}
